@@ -11,9 +11,8 @@ Set up a PHP5 development box with apache, mysql, phpmyadmin and whatever else t
     Install vagrant using the installation instructions in the 
     <a href="http://docs-v1.vagrantup.com/v1/docs/getting-started/" target="_blank">Getting Started document</a>
   </li>
-  <li>
-    Clone this repository, go to it, and run $ vagrant up
-  </li>
+  <li>Clone this repository, go to it, and run $ vagrant up</li>
+  <li>Put your sites and php files inside the sites folder</li>
   <li>Acess localhost:8080 and enjoy!</li>
 </ul>
 
