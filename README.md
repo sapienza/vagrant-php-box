@@ -16,6 +16,14 @@ Set up super fast a PHP5 development box with apache, mysql, phpmyadmin and what
   <li>Acess localhost:8080 and enjoy!</li>
 </ul>
 
+<p>
+PS: I receive several emails asking me which is the phpmyadmin's login and password, it is pretty easy to find out inside its docs... but, here it is: 
+<br/>
+login: root
+<br/>
+password: 'leave it empty!'
+</p>
+
 
 <h2>Included components</h2>
 
