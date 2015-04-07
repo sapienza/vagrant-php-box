@@ -9,20 +9,18 @@ Set up super fast a PHP5 development box with apache, mysql, phpmyadmin and what
 <ul>
   <li>
     Install vagrant using the installation instructions in the 
-    <a href="http://docs-v1.vagrantup.com/v1/docs/getting-started/" target="_blank">Getting Started document</a>
+    <a href="http://docs.vagrantup.com/v2/installation/" /target="_blank">Getting Started document</a>
   </li>
-  <li>Clone this repository, go to it, and run $ vagrant up</li>
-  <li>Put your sites and php files inside the sites folder</li>
+  <li>Clone this repository and run $ vagrant up</li>
+  <li>Put your php files inside the sites folder</li>
   <li>Acess localhost:8080 and enjoy!</li>
 </ul>
 
-<p>
-PS: I receive several emails asking me which is the phpmyadmin's login and password, it is pretty easy to find out inside its docs... but, here it is: 
-<br/>
-login: root
-<br/>
-password: 'leave it empty!'
-</p>
+<h2>PHP My Admin</h2>
+<ul>
+  <li>Available on localhost:8080/phpmyadmin</li>
+  <li>User: root Password: root</li>
+</ul>
 
 
 <h2>Included components</h2>
