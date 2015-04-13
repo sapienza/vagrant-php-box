@@ -15,6 +15,9 @@ Vagrant.configure("2") do |config|
       host: host,
       auto_correct: true
   end
+  
+  # Sync between the web root of the VM and the 'sites' directory
+  config.vm.synced_folder "sites/", "/var/www"
 
   forward_port[1080]      # mailcatcher
   forward_port[3306]      # mysql
