@@ -8,6 +8,11 @@ class base {
   exec { 'apt-get update':
     command => '/usr/bin/apt-get update'
   }
+
+  ## Upgrade apt-get ##
+  exec { 'apt-get upgrade':
+    command => '/usr/bin/apt-get -y upgrade'
+  }
 }
 
 class http {
@@ -27,6 +32,7 @@ class http {
 
   service { "apache2":
     ensure => running,
+    notify  => Exec["apt-get update", "apt-get upgrade"],
     require => Package["apache2"],
   }
 }
